@@ -1,0 +1,20 @@
+[
+    {"id" : "admin",
+     "password": "1234",
+     "com_code" : 80000,
+     "admin" : true,
+     "permission": {
+         "write" : true,
+         "read" : true
+        }
+    },
+    {"id" : "bora",
+        "password": "1234",
+        "com_code" : 80000,
+        "admin" : false,
+        "permission": {
+            "write" : false,
+            "read" : true
+           }
+       }
+]
